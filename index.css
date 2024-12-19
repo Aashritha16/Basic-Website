@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Links Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .link-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .link-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .link-card img {
+            max-width: 80px;
+            margin-bottom: 15px;
+        }
+
+        .link-card h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .link-card p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Professional Links Hub</h1>
+        <p>Your one-stop access to essential platforms</p>
+    </header>
+
+    <main>
+        <div class="link-card">
+            <a href="https://chat.openai.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/OpenAI_Logo.svg" alt="ChatGPT Logo">
+                <h2>ChatGPT</h2>
+                <p>AI-powered conversation tools</p>
+            </a>
+        </div>
+        
+        <div class="link-card">
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+                <h2>LinkedIn</h2>
+                <p>Professional networking</p>
+            </a>
+        </div>
+
+        <div class="link-card">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+                <h2>Instagram</h2>
+                <p>Share your moments</p>
+            </a>
+        </div>
+
+        <div class="link-card">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                <h2>Facebook</h2>
+                <p>Connect with friends</p>
+            </a>
+        </div>
+
+        <div class="link-card">
+            <a href="https://www.github.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo">
+                <h2>GitHub</h2>
+                <p>Host and review code</p>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Professional Links Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
